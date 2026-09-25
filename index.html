@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="MAZ BURGER — big flavor, real burgers. Premium burger ordering demo.">
+<title>MAZ BURGER — Big Flavor. Real Burgers.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">🔥 Freshly made. Seriously satisfying. <a href="#menu">Explore the menu →</a></div>
+<header class="site-header"><a class="logo" href="#">MAZ<span>BURGER</span></a>
+<nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#delivery">Delivery</a><a href="#contact">Contact</a></nav>
+<div class="header-actions"><button class="cart-btn" id="cartOpen">Order Now <b id="cartCount">0</b></button><button class="hamburger" id="menuToggle">☰</button></div></header>
+
+<main>
+<section class="hero" id="home">
+<div class="hero-copy"><p class="eyebrow">MADE FRESH • SERVED BOLD</p><h1>BIG FLAVOR.<br><em>REAL BURGERS.</em></h1><p>Fresh, juicy burgers made for serious cravings.</p><div class="hero-buttons"><a class="btn btn-primary" href="#menu">View Menu</a><button class="btn btn-ghost" id="heroOrder">Order Now ↗</button></div>
+<div class="hero-perks"><span>✦ Freshly Made</span><span>✦ Fast Delivery</span><span>✦ Quality Ingredients</span></div></div>
+<div class="hero-art"><div class="hero-ring"></div><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=85" alt="Stacked juicy burger"></div>
+</section>
+
+<section class="section menu-section" id="menu"><div class="section-head"><div><p class="eyebrow">THE LINEUP</p><h2>Built to <em>crave.</em></h2></div><p class="section-note">Demo menu — prices and products are placeholders until the restaurant provides final details.</p></div>
+<div class="categories" id="categories"></div><div class="product-grid" id="productGrid"></div></section>
+
+<section class="feature-strip"><div><strong>01</strong><span>Fresh ingredients</span></div><div><strong>02</strong><span>Cooked to order</span></div><div><strong>03</strong><span>Fast & easy ordering</span></div><div><strong>04</strong><span>Made for sharing</span></div></section>
+
+<section class="split-section" id="about"><div class="photo-card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1100&q=85" alt="Burger and fries"></div><div class="story"><p class="eyebrow">OUR STORY</p><h2>Made for burger <em>lovers.</em></h2><p>MAZ BURGER is built around one simple idea: make burgers people actually crave. Bold flavors, quality ingredients, freshly prepared food, and an ordering experience that gets out of the way.</p><div class="story-stats"><div><b>100%</b><small>Freshly prepared</small></div><div><b>BIG</b><small>Flavor first</small></div><div><b>FAST</b><small>Easy ordering</small></div></div></div></section>
+
+<section class="why section"><div class="section-head centered"><p class="eyebrow">WHY MAZ</p><h2>Simple. Bold. <em>Good.</em></h2></div><div class="why-grid"><article><i>✦</i><h3>Fresh Ingredients</h3><p>Quality ingredients prepared fresh for every order.</p></article><article><i>◉</i><h3>Big Flavor</h3><p>Layered sauces, crisp textures and seriously satisfying bites.</p></article><article><i>↯</i><h3>Fast Service</h3><p>A streamlined experience from menu to pickup or delivery.</p></article><article><i>＋</i><h3>Easy Ordering</h3><p>Choose your food, review your order and send it on WhatsApp.</p></article></div></section>
+
+<section class="delivery section" id="delivery"><div class="delivery-map"><div class="map-grid"></div><div class="pin">⌖</div><div class="map-label">YOUR AREA<br><small>Delivery details coming soon</small></div></div><div class="delivery-copy"><p class="eyebrow">DELIVERY</p><h2>Hot food.<br><em>At your door.</em></h2><ul><li><b>Fast delivery</b><span>Estimated time: [TBD]</span></li><li><b>Delivery areas</b><span>[Business to confirm]</span></li><li><b>Minimum order</b><span>[Business to confirm]</span></li></ul><button class="btn btn-primary" id="deliveryOrder">Order on WhatsApp ↗</button></div></section>
+
+<section class="reviews section"><div class="section-head"><div><p class="eyebrow">THE WORD ON THE STREET</p><h2>Good food gets <em>talked about.</em></h2></div></div><div class="review-grid"><blockquote><span>★★★★★</span><p>“The burger was juicy, the fries were crisp, and the whole order was easy.”</p><footer>Demo customer · Local order</footer></blockquote><blockquote><span>★★★★★</span><p>“Loved the bold flavors. The chicken burger was exactly what I was craving.”</p><footer>Demo customer · Takeaway</footer></blockquote><blockquote><span>★★★★☆</span><p>“Simple ordering and a really satisfying meal. Would order again.”</p><footer>Demo customer · Delivery</footer></blockquote></div></section>
+
+<section class="social section"><div class="section-head centered"><p class="eyebrow">SOCIAL</p><h2>Follow <em>MAZ BURGER.</em></h2><p class="section-note">Instagram handle: [PLACEHOLDER — business to provide]</p></div><div class="social-grid"><img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=700&q=80" alt="Burger"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="Fries"><img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=700&q=80" alt="Chicken burger"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=700&q=80" alt="Cheeseburger"></div><a class="social-btn" href="#" onclick="return false">Instagram ↗</a></section>
+
+<section class="contact section" id="contact"><div><p class="eyebrow">FIND MAZ</p><h2>Let's make your<br><em>cravings official.</em></h2></div><div class="contact-card"><p><span>PHONE</span>[PLACEHOLDER — business to provide]</p><p><span>WHATSAPP</span>[PLACEHOLDER — business to provide]</p><p><span>LOCATION</span>[PLACEHOLDER — business to provide]</p><p><span>HOURS</span>[PLACEHOLDER — business to provide]</p><button class="btn btn-primary" id="contactOrder">Start an order ↗</button></div></section>
+</main>
+
+<footer><div class="footer-main"><div><a class="logo" href="#">MAZ<span>BURGER</span></a><p>Big flavor. Real burgers.<br>Made fresh for serious cravings.</p></div><div><h4>Explore</h4><a href="#menu">Menu</a><a href="#about">About</a><a href="#delivery">Delivery</a></div><div><h4>Contact</h4><span>[Phone placeholder]</span><span>[WhatsApp placeholder]</span><span>[Location placeholder]</span></div><div><h4>Hours</h4><span>[Hours placeholder]</span><a class="footer-order" href="#menu">Order Now ↗</a></div></div><div class="footer-bottom"><span>© 2026 MAZ BURGER · Demo concept</span><a href="admin.html">Admin</a></div></footer>
+
+<div class="modal" id="productModal"><div class="modal-card" id="modalContent"></div></div>
+<aside class="cart-drawer" id="cartDrawer"><div class="drawer-head"><h3>Your Order</h3><button id="cartClose">×</button></div><div id="cartItems"></div><div class="cart-footer"><div><span>Total</span><strong id="cartTotal">₹0</strong></div><button class="btn btn-primary full" id="checkout">Continue to WhatsApp</button></div></aside><div class="overlay" id="overlay"></div>
+<script src="app.js"></script>
+</body></html>
